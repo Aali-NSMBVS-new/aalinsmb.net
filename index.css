@@ -1,0 +1,59 @@
+body {
+    background: linear-gradient(180deg in srgb, #aa39ff 0%, #ffdd00 100%);
+    color: #000000;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+#container {
+    background: #eeeeee;
+    border-radius: 16px;
+    padding: 32px;
+    max-width: 500px;
+    width: 90%;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0 0 8px 0;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 24px 0 16px 0;
+    font-weight: 500;
+}
+
+p {
+    margin: 0 0 24px 0;
+    line-height: 1.5;
+    color: #333;
+}
+
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 0;
+}
+
+.social-link {
+    display: inline-block;
+    background: #eeeeee;
+    border-radius: 1px;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    border: 1px solid #cccccc;
+    cursor: pointer;
+    margin: 0;
+}
+
+.social-link:hover {
+    background: #e0e0e0;
+}
